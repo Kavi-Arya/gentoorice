@@ -1,0 +1,6 @@
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-editors/vscode-1.69.2::gentoo
+# required by app-editors/vscode (argument)
+>=app-crypt/gcr-3.41.1 gtk

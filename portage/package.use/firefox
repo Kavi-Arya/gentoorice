@@ -1,0 +1,6 @@
+# required by media-sound/pulseaudio-daemon-16.1::gentoo[alsa-plugin,alsa]
+# required by media-libs/libpulse-16.1::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by www-client/firefox-bin-103.0::gentoo[pulseaudio]
+# required by www-client/firefox-bin (argument)
+>=media-plugins/alsa-plugins-1.2.7.1 pulseaudio

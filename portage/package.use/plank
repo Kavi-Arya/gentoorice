@@ -1,0 +1,3 @@
+# required by x11-misc/plank-0.11.89-r1::edgets
+# required by x11-misc/plank (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk gtk3

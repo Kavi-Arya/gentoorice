@@ -1,0 +1,28 @@
+#!/bin/zsh
+
+alias rr="curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
+# alias cl="clear" 
+alias cl="clear && colorscript random"
+alias cc="cd .clones"
+alias gc="git clone"
+alias off="echo 0 | sudo tee /sys/class/backlight/intel_backlight/brightness"
+alias on="echo 100000 | sudo tee /sys/class/backlight/intel_backlight/brightness"
+alias passss="echo 2ZVXsf3fEtvkTtEgP3Ph| xclip -sel c"
+alias cool="sudo intel-undervolt apply"
+alias shit="sudo shutdown now"
+alias fucked="sudo systemctl suspend"
+alias live="sudo auto-cpufreq --live"
+alias aud="alsamixer"
+alias remove="sudo pacman -Rns"
+alias cd.="cd .config"
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first'  # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias sudoedit="sudo lvim"
+alias nv="lvim"
+alias rmf="rm -rf"
+alias srmf="sudo rm -rf"
+alias emerge="sudo emerge"
+alias re="sudo reboot"
+alias notroot="sudo chown -R terror:users"

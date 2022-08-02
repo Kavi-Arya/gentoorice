@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -rf dwm config.h dwm.o util.o drw.o
+doas make clean install
+rm -rf dwm config.h dwm.o util.o drw.o
